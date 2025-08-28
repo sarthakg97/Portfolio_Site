@@ -96,7 +96,7 @@
     gap: 50px;
     flex-wrap: wrap;  /* mobile me stack ho jaaye */
     position: relative;
-    left: 40px;
+    left: 35px;
   }
   .summary p {
     text-align: center;
@@ -383,7 +383,7 @@ body {
     body {
   cursor: auto;
   /* background: #111; */
-  /* overflow: hidden; */
+/*   overflow-y: hidden; */
 }
 }
 
@@ -422,8 +422,9 @@ body {
 @media (max-width:786px) {
   .smoke {
   display: none;
- 
 }
+    .cursor {
+ cursor:none;
 }
 /* Smoke floating animation */
 @keyframes float {
