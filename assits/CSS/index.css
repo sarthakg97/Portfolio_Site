@@ -201,6 +201,8 @@
 @media (max-width:786px) {
   .project-card {
   width: 150px;
+  position: relative;
+  right: 20px;    
 }
 }
 
