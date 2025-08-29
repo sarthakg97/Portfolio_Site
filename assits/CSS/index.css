@@ -450,7 +450,7 @@ body {
 @media (max-width: 786px) {
   #auto-heading {
     position: realtive; 
-      right:45px;
+      right:0px;
   }
 }
 
