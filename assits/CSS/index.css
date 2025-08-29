@@ -96,7 +96,7 @@
     gap: 50px;
     flex-wrap: wrap;  /* mobile me stack ho jaaye */
     position: relative;
-    left: 35px;
+    left: 33px;
   }
   .summary p {
     text-align: center;
