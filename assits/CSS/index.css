@@ -449,11 +449,12 @@ body {
 }
 @media (max-width: 786px) {
   #auto-heading {
-    position: static;      
-    text-align: center;    
+    position: static;       
     display: block;
-    width: 100%;
-    right: 0;              
+    width: 100%;            
+    text-align: center;     
+    white-space: normal;    
+    overflow: visible;      
   }
 }
 
