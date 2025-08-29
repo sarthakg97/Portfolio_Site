@@ -381,13 +381,15 @@ body {
   /* background: #111; */
   /* overflow: hidden; */
 }
-@media(max-width:786px){
+@media (max-width: 786px){
     body {
-  cursor: auto;
-  /* background: #111; */
-/*   overflow-y: hidden; */
+        cursor: auto; 
+    }
+    .cursor, .smoke {
+        display: none !important;
+    }
 }
-}
+
 
 /* Main glowing cursor */
 .cursor {
@@ -421,13 +423,7 @@ body {
   z-index: 9998;
   animation: float 2s forwards;
 }
-@media (max-width:786px) {
-  .smoke {
-  display: none;
-}
-    .cursor {
- cursor:none;
-}
+
 /* Smoke floating animation */
 @keyframes float {
   0% {
