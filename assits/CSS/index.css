@@ -447,11 +447,12 @@ body {
   width: fit-content;
   animation: blink 0.7s step-end infinite;
 }
-@media (max-width: 786px) {
+@media (max-width:786px) {
   #auto-heading {
-    position: realtive; 
-      right:0px;
+  position: relative;
+  right: 100px;
   }
+  
 }
 
 /* Blinking cursor */
