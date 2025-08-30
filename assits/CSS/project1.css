@@ -83,6 +83,14 @@
   font-size: 12px;
   font-weight: 300;
 }
+.tap{
+  display: hidden;
+}
+@midea (max-width:786px){
+  .tap{
+  display: block;
+}
+}
 
 .front p.bottom-bar::after{
   content: '';
